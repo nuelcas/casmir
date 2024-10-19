@@ -1,0 +1,211 @@
+Set body and html to take full height html,
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh; /* Ensure the body takes up the full height */
+  display: flex;
+  flex-direction: column; /* Use flexbox */
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+
+/* The main content should grow to fill the remaining space */
+.contact-section {
+  background-color: black;
+  text-align: center;
+  flex-grow: 1; /* Allow the section to grow and take up available space */
+}
+
+.contact-section h1 {
+  font-size: 2.5rem;
+  color: rgb(174, 239, 217);
+  margin-bottom: 20px;
+}
+
+.contact-section p {
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  background: #333;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  max-width: 600px;
+  max-height: auto;
+  margin: 0 auto 40px;
+}
+
+.contact-form .form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.contact-form label {
+  font-size: 1.1rem;
+  color: white;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 95%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form .submit-btn {
+  background-color: #007bff;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form .submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.contact-info {
+  font-size: 1.1rem;
+  color: white;
+}
+
+.contact-info p {
+  margin: 30px;
+}
+
+.contact-info strong {
+  color: #007bff;
+}
+
+/* Footer Styles */
+.footer {
+  width: 100%;
+  background-color: rgb(33, 32, 32);
+  color: white;
+  height: 70px;
+  /* padding: 10px 0; */
+  text-align: center;
+  margin-top: auto;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.copyright {
+  margin: 0;
+  font-size: 16px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+.social-icon {
+  width: 30px;
+  height: auto;
+  color: rgb(192, 220, 245);
+  transition: transform 0.3s;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 1050px) {
+  .footer {
+    margin-top: 315px;
+    height: 60px;
+  }
+
+  .contact-form {
+    padding: 15px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 90%;
+    font-size: 1rem;
+    padding: 30px;
+  }
+
+  .social-icon {
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 780px) {
+  .contact-form {
+    padding: 15px;
+  }
+
+  .contact-section h1 {
+    font-size: 2rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .contact-info p,
+  .contact-info address {
+    font-size: 1rem;
+  }
+
+  .footer {
+    margin-top: 120px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-form {
+    padding: 10px;
+  }
+
+  .contact-section h1 {
+    font-size: 1.8rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.9rem;
+  }
+
+  .contact-info p,
+  .contact-info address {
+    font-size: 0.9rem;
+  }
+
+  .footer {
+    margin-top: 85px;
+    height: 60px;
+  }
+}

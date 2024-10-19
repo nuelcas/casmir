@@ -1,0 +1,113 @@
+/* ---services section styling--- */
+body {
+  background-color: black;
+}
+#services {
+  background-color: black; /* Set background to black */
+  padding: 20px 45px 10px;
+  color: white;
+}
+
+#services .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#services .sub-title {
+  font-size: 28px;
+  color: rgb(174, 239, 217);
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+/* Increase heading size on large screens */
+@media (min-width: 1024px) {
+  #services .sub-title {
+    font-size: 40px;
+  }
+}
+
+.services-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  gap: 20px;
+}
+
+.services-col {
+  background-color: #333; /* Dark gray background for each service */
+  width: 100%; /* Full width for smaller screens */
+  max-width: 600px; /* Set a maximum width */
+  border-radius: 12px;
+  transition: background 0.3s ease, transform 0.3s ease;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto; /* Ensure centering */
+}
+
+.services-col i {
+  font-size: 50px;
+  color: rgba(245, 245, 245, 0.776);
+}
+
+.services-col h3 {
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff; /* Adjust this color */
+}
+
+.services-col p {
+  margin-top: 15px;
+  font-size: 22px;
+  line-height: 1.6;
+}
+
+.services-col:hover {
+  transform: translateY(-5px); /* Small hover effect */
+  background-color: var(--primary-color); /* Highlight service on hover */
+  color: white;
+}
+
+.services-col:hover i,
+.services-col:hover h3 {
+  color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  #services .container {
+    margin-bottom: -200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .services-col {
+    width: 90%; /* Take 90% width of the screen on smaller devices */
+    max-width: 100%; /* Remove max-width constraint */
+    padding: 15px;
+  }
+
+  #services .container {
+    margin-bottom: -40px;
+  }
+
+  .services-col i {
+    font-size: 40px; /* Reduce icon size */
+  }
+
+  .services-col h3 {
+    font-size: 20px;
+  }
+
+  .services-col p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 460px) {
+  #services .container {
+    margin-bottom: -40px;
+  }
+}

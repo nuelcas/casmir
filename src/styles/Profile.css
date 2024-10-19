@@ -1,0 +1,117 @@
+/* Ensure profile-page takes the full height and has space for footer */
+.profile-page {
+  background-color: #000;
+  color: white;
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: auto;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: #007bff;
+  font-size: 28px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid gray;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+h3 {
+  color: #f0f0f0;
+  font-size: 22px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* About Me Section */
+.about-me {
+  width: 80%;
+  max-width: 800px;
+  background-color: #1a1a1a;
+  padding: 30px;
+  border: 2px solid #3498db; /* Blue border */
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Skills Section */
+.skills {
+  width: 80%;
+  max-width: 800px;
+  background-color: #1a1a1a;
+  padding: 30px;
+  border: 2px solid #e67e22; /* Orange border */
+  border-radius: 15px;
+  margin-bottom: 40px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Education Section */
+.education {
+  width: 80%;
+  max-width: 800px;
+  background-color: #1a1a1a;
+  padding: 30px;
+  border: 2px solid #2ecc71; /* Green border */
+  border-radius: 15px;
+  margin-bottom: 40px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Certification Section */
+.certification {
+  width: 80%;
+  max-width: 800px;
+  background-color: #1a1a1a;
+  padding: 30px;
+  border: 2px solid #f1c40f; /* Yellow border */
+  border-radius: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling for Responsive View */
+@media (min-width: 768px) and (max-width: 1050px) {
+  .profile-page {
+    margin-bottom: -255px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-me,
+  .skills,
+  .education,
+  .certification {
+    width: 80%;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+/* @media (max-width: 460px) {
+  .profile-page {
+    margin-bottom: -50px;
+  }
+} */
