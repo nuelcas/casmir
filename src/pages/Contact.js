@@ -10,6 +10,12 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // Handle form submission
+    alert("Form submitted successfully");
+  };
+
   return (
     <section className="contact-section">
       <NavBar />
@@ -26,6 +32,7 @@ const Contact = () => {
           method="POST"
           data-netlify="true"
           className="contact-form"
+          onSubmit={handleSubmit}
         >
           <input type="hidden" name="form-name" value="contact" />
           <div className="form-group">
@@ -62,7 +69,6 @@ const Contact = () => {
             Send Message
           </button>
         </form>
-
         <div className="contact-info">
           <p>
             <strong>Email:</strong> casmir_ao@ymail.com
