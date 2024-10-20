@@ -1,6 +1,6 @@
 import React from "react";
-import NavBar from "../components/NavBar"; // Import the NavBar component
-import Footer from "../components/Footer"; // Import the Footer component
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
 import "../styles/Blog.css";
 
 const BlogPage = () => {

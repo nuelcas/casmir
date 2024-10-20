@@ -7,10 +7,8 @@ function Profile() {
   return (
     <div className="footer-container">
       <div className="profile-page">
-        {/* Navigation Bar */}
         <NavBar />
 
-        {/* About Me Section */}
         <section className="about-me">
           <h2>About Me</h2>
           <p>
@@ -34,7 +32,6 @@ function Profile() {
           </p>
         </section>
 
-        {/* Skills Section */}
         <section className="skills">
           <h2>Skills</h2>
           <h3>Languages</h3>
@@ -49,7 +46,6 @@ function Profile() {
           <p>Excellent communication, Teamwork, Creativity, Adaptability</p>
         </section>
 
-        {/* Education Section */}
         <section className="education">
           <h2>Education</h2>
           <p>B.Sc. Ed. in Computer Science</p>
@@ -57,7 +53,6 @@ function Profile() {
           <p>2006 - 2010</p>
         </section>
 
-        {/* Certification Section */}
         <section className="certification">
           <h2>Certifications</h2>
           <p>Software Engineering, Certificate Awaiting - PLP Academy</p>

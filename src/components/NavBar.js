@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom"; // Import Link for navigation
-import "../styles/NavBar.css"; // Assuming you are saving the CSS in the styles folder
+import { Link } from "react-router-dom";
+import "../styles/NavBar.css";
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +20,6 @@ function NavBar() {
             <div className={`bar ${isOpen ? "change" : ""}`}></div>
           </div>
 
-          {/* Navigation Links */}
           <div id="nav-links" className={isOpen ? "active" : ""}>
             <ul id="sticky-menu">
               <li>

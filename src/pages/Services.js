@@ -1,7 +1,7 @@
 import React from "react";
-import NavBar from "../components/NavBar"; // Import the NavBar component
-import Footer from "../components/Footer"; // Import the Footer component
-import "../styles/Services.css"; // Import the Profile CSS for styling
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
+import "../styles/Services.css";
 
 function Services() {
   return (
@@ -49,7 +49,7 @@ function Services() {
           </div>
         </div>
       </div>
-      <Footer /> {/* Place the footer outside of the services container */}
+      <Footer />
     </div>
   );
 }

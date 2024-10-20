@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "../components/NavBar";
-import "../styles/Contact.css"; // Ensure this points to the correct CSS file
+import "../styles/Contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
@@ -21,18 +21,18 @@ const Contact = () => {
 
         {/* Netlify Form */}
         <form
-          id="contact-form" // Updated ID
+          id="contact-form"
           name="contact"
           method="POST"
           data-netlify="true"
-          className="contact-form" // Updated class
+          className="contact-form"
         >
           <input type="hidden" name="form-name" value="contact" />
           <div className="form-group">
             <label htmlFor="contact-name">Name:</label>
             <input
               type="text"
-              id="contact-name" // Updated ID
+              id="contact-name"
               name="name"
               placeholder="Enter your name"
               required
@@ -42,7 +42,7 @@ const Contact = () => {
             <label htmlFor="contact-email">Email:</label>
             <input
               type="email"
-              id="contact-email" // Updated ID
+              id="contact-email"
               name="email"
               placeholder="Enter your email"
               required
@@ -51,7 +51,7 @@ const Contact = () => {
           <div className="form-group">
             <label htmlFor="contact-message">Message:</label>
             <textarea
-              id="contact-message" // Updated ID
+              id="contact-message"
               name="message"
               placeholder="Type your message"
               rows="8"

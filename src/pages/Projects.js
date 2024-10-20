@@ -1,9 +1,8 @@
-// Project.js
 import React from "react";
 import ProjectCard from "../components/ProjectCard";
-import NavBar from "../components/NavBar"; // Import the NavBar component
-import Footer from "../components/Footer"; // Import the Footer component
-import "../styles/Projects.css"; // Import the Profile CSS for styling
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
+import "../styles/Projects.css";
 
 const Project = () => {
   const projectData = [
