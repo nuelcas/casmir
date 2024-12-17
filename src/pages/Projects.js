@@ -11,7 +11,7 @@ const Project = () => {
       alt: "Alpha Plus Products Photo",
       title: "Alpha Plus Cleaning Products",
       description: "Specializing in the production of cleaning solutions",
-      link: "https://nuelcas.github.io/alpha-plus-cleaning-products/frontend/contact.html",
+      link: "https://nuelcas.github.io/alpha-plus-cleaning-products/",
     },
     {
       imgSrc: "/images/nuelcascleaners.jpg",
