@@ -229,28 +229,28 @@ const Contact = () => {
         </div>
         <div className="social-icons">
           <a
-            href="https://github.com/yourprofile"
+            href="https://github.com/nuelcas"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faGithub} className="social-icon" />
           </a>
           <a
-            href="https://linkedin.com/in/yourprofile"
+            href="https://linkedin.com/in/casmir-onyekani"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faLinkedin} className="social-icon" />
           </a>
           <a
-            href="https://twitter.com/yourprofile"
+            href="https://twitter.com/casweb_dev"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faTwitter} className="social-icon" />
           </a>
           <a
-            href="https://facebook.com/yourprofile"
+            href="https://facebook.com/nuelcas"
             target="_blank"
             rel="noopener noreferrer"
           >
