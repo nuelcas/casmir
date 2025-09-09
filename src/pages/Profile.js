@@ -12,12 +12,10 @@ function Profile() {
         <section className="about-me">
           <h2>About Me</h2>
           <p>
-            My name is Casmir Onyekani. I like to be called Cas. As a graduate
-            of computer science education, I've delved deep into the world of
-            technology and emerged as a versatile professional.
+            Hi, I’m Casmir Onyekani, but you can call me Cas. I’ve explored the tech world and grown into a versatile professional
           </p>
           <p>
-            With a passion for web development, I craft digital experiences that
+            With a passion for software development, I craft digital experiences that
             not only captivate but also solve real-world problems. But my
             journey doesn't stop there. As a technical writer, I translate
             complex concepts into digestible insights, sharing knowledge and
@@ -35,13 +33,13 @@ function Profile() {
         <section className="skills">
           <h2>Skills</h2>
           <h3>Languages</h3>
-          <p>JavaScript, Python, MySQL, and Dart</p>
+          <p>JavaScript, Python, SQL</p>
           <h3>Frameworks/Libraries</h3>
-          <p>React.js, Node.js, Django, Flutter, and Tailwind</p>
+          <p>React.js, TypeScript, Node.js, Django, Flutter, and Tailwind</p>
           <h3>Version Control</h3>
           <p>Git and GitHub</p>
           <h3>Technical Writing</h3>
-          <p>Clear and concise articles, User manuals, API guides</p>
+          <p>Clear and concise articles, User manuals, API guides, technical documentation</p>
           <h3>Soft Skills</h3>
           <p>Excellent communication, Teamwork, Creativity, Adaptability</p>
         </section>
@@ -55,10 +53,10 @@ function Profile() {
 
         <section className="certification">
           <h2>Certifications</h2>
-          <p>Software Engineering, Certificate Awaiting - PLP Academy</p>
+          <p>Software Development and Entrepreneurship - PLP Academy</p>
           <p>Web Development - CWW Tech Africa</p>
           <p>Responsive Web Design - freeCodeCamp</p>
-          <p>JavaScript Algorithms and Data Structure - freeCodeCamp</p>
+          <p>JavaScript, Algorithms and Data Structure - freeCodeCamp</p>
           <p>Front End Development Libraries - freeCodeCamp</p>
         </section>
       </div>
